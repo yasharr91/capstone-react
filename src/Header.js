@@ -1,3 +1,6 @@
-export const Header = () => {
-  return <img src=".\public\Logo .svg" width={50}></img>;
+import Logo from "../src/Logo .svg";
+
+const Header = () => {
+  return <img src={Logo} width={50}></img>;
 };
+export default Header;

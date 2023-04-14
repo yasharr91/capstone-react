@@ -1,9 +1,16 @@
-export const Nav = () => {
+const Nav = () => {
   return (
     <ul>
-      <li>Menu</li>
-      <li>Reserve a Table</li>
-      <li>About Us</li>
+      <li>
+        <a href="index.html"></a>
+      </li>
+      <li>
+        <a href="index.html"></a>
+      </li>
+      <li>
+        <a href="index.html"></a>
+      </li>
     </ul>
   );
 };
+export default Nav;
