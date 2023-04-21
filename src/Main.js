@@ -1,5 +1,11 @@
+import BookingPage from "./Home/BookingPage";
+
 const Main = () => {
-  return <div>hey hey ehy</div>;
+  return (
+    <div>
+      <BookingPage />
+    </div>
+  );
 };
 
 export default Main;
